@@ -7,4 +7,13 @@ export interface UserStructure {
   shippingDetails: string;
 }
 
+export interface CarStructure {
+  id: number;
+  model: string;
+  brand: string;
+  stock: number;
+  price: number;
+}
+
+export type CarsStructure = CarStructure[];
 export type UsersStructure = UserStructure[];
